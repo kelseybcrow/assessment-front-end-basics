@@ -15,9 +15,12 @@ let handleRitual = (evt) => {
 
 let color = document.querySelector("#color");
 color.addEventListener("click", handleColor);
+color.classList.add("big-yellow");
 
 let place = document.querySelector("#place");
 place.addEventListener("click", handlePlace);
+place.classList.add("big-yellow");
 
 let ritual = document.querySelector("#ritual");
 ritual.addEventListener("click", handleRitual);
+ritual.classList.add("big-yellow");
